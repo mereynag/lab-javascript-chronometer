@@ -14,15 +14,15 @@ let milUni = document.getElementById('milUni');
 let splits = document.getElementById('splits');
 
 function printTime() {
-  // ... your code goes here
+  return `${printMinutes()}:${printSeconds()}`
 }
 
 function printMinutes() {
-  // ... your code goes here
+  return `${minDec}${minUni}`
 }
 
 function printSeconds() {
-  // ... your code goes here
+  return `${secDec}${secUni}`
 }
 
 // ==> BONUS
